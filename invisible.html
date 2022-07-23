@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+	.hidden {display:none;}
+	h2{
+		color: cyan;
+	}
+</style>
+<head>
+	<title>invisible</title>
+</head>
+
+<body style="text-align: center;">
+	<h2>Invisible On Mouse Click</h2>
+<img src="image.png" id="ugly" onClick="makeInvisible();">
+
+<script type="text/javascript">
+
+	function makeInvisible() {
+	document.getElementById("ugly").className = "hidden";
+}
+</script>
+
+
+</body>
+</html>
